@@ -1,8 +1,8 @@
 //
-//  LabTwo.h
+//  Box.h
 //  objective_c
 //
-//  Created by Ryo Togashi on 2019-07-30.
+//  Created by Ryo Togashi on 2019-07-31.
 //  Copyright © 2019 Ryo Togashi. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LabTwo : NSObject
+@interface Box : NSObject
 
 @end
 
