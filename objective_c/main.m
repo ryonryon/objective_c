@@ -9,13 +9,31 @@
 #import <Foundation/Foundation.h>
 #import "DateCalculator.h"
 #import "LabOne.h"
+#import "NSString+Canadian.h"
+#import "NSString+PigLatin.h"
 
 // C code
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        LabOne * labOne = [[LabOne alloc] init];
-        [labOne start];
+//        NSString *nomal = @"Hey, how are you doing";
+//        NSLog(@"%@", [nomal canadianize]);
+//
+//        LabOne * labOne = [[LabOne alloc] init];
+//        [labOne start];
+//
+//        NSArray *arr = @[@"hello", @"world"];
+//        [arr objectAtIndex:0];
+//
+//
+//        NSMutableArray *arr2 = @[@"hello", @"world"];
+//        [arr2 addObject:@"more string"];
+//        [arr2 objectAtIndex:0];
+//        [arr2 removeObject:@"hello"];
+//        [arr2 removeObjectAtIndex:0];
+        
+        NSString *test1 = @"Kale Chips";
+        NSLog([test1 stringByPigLatinization]);
     }
     return 0;
 }

@@ -29,4 +29,5 @@
     
     return (int) (self.volume / box.volume);
 }
+
 @end
