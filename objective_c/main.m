@@ -11,6 +11,8 @@
 #import "LabOne.h"
 #import "NSString+Canadian.h"
 #import "NSString+PigLatin.h"
+#import "Boss.h"
+#import "Accountant.h"
 
 // C code
 int main(int argc, const char * argv[]) {
@@ -32,8 +34,12 @@ int main(int argc, const char * argv[]) {
 //        [arr2 removeObject:@"hello"];
 //        [arr2 removeObjectAtIndex:0];
         
-        NSString *test1 = @"Kale Chips";
-        NSLog([test1 stringByPigLatinization]);
+//        NSString *test1 = @"Kale Chips";
+//        NSLog([test1 stringByPigLatinization]);
+//        Boss *ceo = [[Boss alloc] initWithName: @"Mark"];
+//        Accountant *ted = [[Accountant alloc] initWithName:@"Ted"];
+//
+
     }
     return 0;
 }
